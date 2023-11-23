@@ -1,13 +1,34 @@
-# Backend VALL System 
+#**Markdown Backend – VALL System**
 
-Nosso sistema de gestão escolar possui um backend robusto que oferece uma variedade de recursos para gerenciar informações dos alunos, notas, frequência e o planejamento dos professores.
+ - ***API: Python***
 
-1.  **Cadastro de Alunos**: Registra informações dos alunos, como nome, data de nascimento, matrícula e contato do responsável.
-    
-2.  **Notas e Avaliações**: Permite aos professores inserir e calcular notas, além de armazenar históricos de notas dos alunos.
-    
-3.  **Controle de Frequência**: Registra a presença ou ausência dos alunos em aulas.
-    
-4.  **Planejamento de Aulas**: Ajuda os professores a criar planos de aulas com objetivos e conteúdos.
+Utilizada para enviar e recuperar dados em um servidor através da integração do uso de dados para aplicações; 
 
-Esses recursos ajudam a gerenciar informações escolares de forma eficiente, melhorando a comunicação e o acompanhamento dos alunos.
+Associada à interação com o Web Services e testes de softwares, automatizando diversas partes de um sistema, facilitando a seleção de funcionalidades e integrações de serviços. 
+
+Juntamente com o desenvolvimento de Bibliotecas e Frameworks. 
+
+Atuando como um conjunto de regras e definições, permitindo que diferentes softwares comuniquem entre si, utilizamos o acrônico CRUD, o qual representa quatro operações básicas; são elas:
+
+ - Create (Criar) 
+ - Read (Ler)  
+ - Update (Atualizar)  
+ - Delete (Excluir)
+
+Deste modo, os contextos relacionados ao banco de dados e sistemas, serão gerenciados em manipulação de informações.
+
+ - ***Máquina Virtual de Python***
+
+Utilizamos a máquina virtual de Python com o intuito de otimizar o processo de desenvolvimento do Backend do software, melhorando a produtividade e eficiência. 
+
+De modo que fosse possível evitar conflitos entre dependências, tornando mais simplificado a implantação do código por meio de ambientes virtuais isolados; suporte a diferentes versões do Python; facilidade de uso e organização do projeto.
+
+ - ***Framework: PHP - OpenAPI e JSON Schema***
+
+O Framework escolhido para uso foi o FastAPI, projetado para desenvolvimento rápido por meio de velocidade e eficiência, gerando automaticamente documentação OpneAPI e JSON Schema, facilitando a compreensão da API e fornecendo um ponto de entrada interativo para testar os endpoints
+
+ - ***ORM – Banco de Dados: MySQL***
+
+Em nosso Backend, utilizamos o ORM (Object Relational Mapping) com o intuito de aproximar o paradigma de desenvolvimento de aplicações orientadas a objetos, no caso o Python, ao paradigma de banco de dados relacional, o MySQL. 
+
+Desta forma, facilitando a comunicação entre eles, automatizando a persistência de informações e convertendo os dados de objetos para tabelas, permitindo que as operações CRUD sejam realizadas através da linguagem escolhida.
